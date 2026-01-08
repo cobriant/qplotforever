@@ -1,0 +1,18 @@
+Package: qplotforever
+Type: Package
+Title: Masks deprecation message for qplot
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Colleen", "O'Briant",
+      email = "colleen.obriant@ucr.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: This masks the deprecation message for qplot.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+RoxygenNote: 7.3.3

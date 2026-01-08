@@ -13,7 +13,6 @@ qplot(...)
 A ggplot object.
 }
 \description{
-Pedagogical wrapper around ggplot2::qplot() that muffles only the
-lifecycle deprecation warning for qplot, while keeping all other
-warnings and messages.
+Pedagogical wrapper around ggplot2::qplot() that suppresses the
+lifecycle deprecation warning for qplot only.
 }

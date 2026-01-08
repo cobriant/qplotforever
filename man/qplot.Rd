@@ -2,7 +2,7 @@
 % Please edit documentation in R/qplot.R
 \name{qplot}
 \alias{qplot}
-\title{qplot (without the ggplot2 lifecycle deprecation warning)}
+\title{qplot (teaching wrapper)}
 \usage{
 qplot(...)
 }
@@ -13,6 +13,6 @@ qplot(...)
 A ggplot object.
 }
 \description{
-Pedagogical wrapper around ggplot2::qplot() that suppresses the
-lifecycle deprecation warning for qplot only.
+Pedagogical wrapper around ggplot2::qplot() that suppresses lifecycle
+deprecation warnings during the call, while leaving other warnings alone.
 }

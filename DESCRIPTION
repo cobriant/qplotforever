@@ -16,3 +16,5 @@ LazyData: true
 Imports: 
     ggplot2
 RoxygenNote: 7.3.3
+URL: https://github.com/cobriant/qplotforever
+BugReports: https://github.com/cobriant/qplotforever/issues
